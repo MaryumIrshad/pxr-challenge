@@ -166,7 +166,7 @@ The final prediction method can be summarized as:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pxr-challenge.git
+git clone https://github.com/MaryumIrshad/pxr-challenge.git
 cd pxr-challenge
 ```
 
