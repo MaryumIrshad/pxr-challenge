@@ -34,7 +34,7 @@ pxr-challenge/
 │
 ├── README.md
 ├── notebooks/
-│   └── pxr_phase2_ensemble.ipynb
+│   └── pxr_ensemble.ipynb
 |
 ├── outputs/
 │   └── selected_ensemble_weights.csv
@@ -198,13 +198,13 @@ catboost
 Open the notebook in Jupyter or VS Code:
 
 ```text
-notebooks/pxr_phase2_ensemble_github_ready.ipynb
+notebooks/pxr_ensemble.ipynb
 ```
 
 Run the notebook from top to bottom. The final official-style submission file is written to:
 
 ```text
-pxr_phase2_consolidated_workdir/outputs/pxr_final_submission_all_513_consolidated.csv
+outputs/pxr_final_submission.csv
 ```
 
 ## Notes
