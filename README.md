@@ -10,7 +10,7 @@ The OpenADMET PXR challenge was to predict **pEC50 values** for a blinded analog
 
 The official challenge page and data are available through OpenADMET and Hugging Face:
 
-- OpenADMET PXR Challenge Space: https://huggingface.co/spaces/openadmet/pxr-challenge
+- OpenADMET PXR Challenge Space: https://huggingface.co/spaces/openadmet/pxr-challenge?ref=openadmet.ghost.io
 - OpenADMET PXR train/test dataset: https://huggingface.co/datasets/openadmet/pxr-challenge-train-test
 - OpenADMET challenge announcement: https://openadmet.ghost.io/announcing-the-next-openadmet-blind-challenge-predicting-pxr-induction/
 
