@@ -156,57 +156,6 @@ On the unblinded Phase 1 diagnostic set, the final selected workflow achieved:
 
 These values are diagnostic scores on the revealed Phase 1 set, not final blinded Phase 2 leaderboard scores.
 
-## Final Prediction Method
-
-The final prediction method can be summarized as:
-
-> A greedy-selected ensemble dominated by Chemprop message-passing neural networks, with additional contribution from a Ridge fingerprint model and a HistGradientBoosting regressor. The ensemble predictions were calibrated using Huber regression and adjusted using conservative similarity-based residual correction based on revealed Phase 1 analogs.
-
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/MaryumIrshad/pxr-challenge.git
-cd pxr-challenge
-```
-
-### 2. Create or activate an environment
-
-The exact environment may depend on your machine. The main dependencies are:
-
-```text
-python
-pandas
-numpy
-scikit-learn
-rdkit
-chemprop
-xgboost
-matplotlib
-```
-
-Optional dependencies:
-
-```text
-lightgbm
-catboost
-```
-
-### 3. Run the notebook
-
-Open the notebook in Jupyter or VS Code:
-
-```text
-notebooks/pxr_ensemble.ipynb
-```
-
-Run the notebook from top to bottom. The final official-style submission file is written to:
-
-```text
-outputs/pxr_final_submission.csv
-```
-
 ## Notes
 
 - This repository is intended to document my modeling workflow and learning process.
